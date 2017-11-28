@@ -16,7 +16,8 @@ url3 = 'https://pythonprogramming.net/static/images/opencv/mainlogo.png'
 img3 = imurl(url3)
 
 print("hello github")
+print("I'm tired")
 
-cv2.imshow('img1',img1/img2)
+cv2.imshow('img1',img1+img2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
