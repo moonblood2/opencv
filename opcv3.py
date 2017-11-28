@@ -18,6 +18,7 @@ img3 = imurl(url3)
 print("hello github")
 print("I ain't tired")
 
-cv2.imshow('img1',img1+img2)
+add = cv2.add(img1,img2)
+cv2.imshow('img1',add)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
