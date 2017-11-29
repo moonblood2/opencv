@@ -15,10 +15,7 @@ img2 = imurl(url2)
 url3 = 'https://pythonprogramming.net/static/images/opencv/mainlogo.png'
 img3 = imurl(url3)
 
-print("hello github")
-print("I ain't tired")
 
-add = cv2.add(img1,img2)
-cv2.imshow('img1',add)
+cv2.imshow('img1',img1/img2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
